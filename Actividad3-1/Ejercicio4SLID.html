@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sara">
+    <title>Ejercicio4-SLID</title>
+    <style>
+    table, th, td {
+        border: 1px solid black;
+        
+    }
+    th, td{
+        padding: 15px;
+        text-align: center;
+    }
+   
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de tabla con colores distintos en cada celda
+    </h1>
+    <table style="width:100%;">
+    <tr>
+        <th>Color 1</th>
+        <th>Color 2</th>
+        <th>Color 3</th>
+    </tr>
+    <tr>
+        <td style="background-color:#ff0000">Color #FF000</td>
+        <td style="background-color: #00ff00;">Color #00FF00</td>
+        <td rowspan="2" style="background-color:#00ffaa">Color #00FFAA</td >
+    </tr>
+    <tr>
+        <td style="background-color: #11cccc;">Color #11CCCC</td>
+        <td style="background-color: #22AA22;">Color #22AA22</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" style="background-color: #aabb00;">#Color #AABB00</td>
+        <td style="background-color: #bb00bb;">Color #BB00BB</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Con este ejemplo de pie
+            de tabla se puede ver que se amplia 
+            el tamaño para incluir el texto</td>
+        
+    </tr>
+    
+    </table>
+</body>
