@@ -1,0 +1,35 @@
+table{
+    border: 3px;
+}
+tbody.color>tr>td#rojo{
+    background-color: #ff0000;
+    width: 50%;
+}
+
+tbody.color>tr>td#verde{
+    background-color: #00FF00; 
+    width: 50%;
+}
+
+tbody.color>tr>td#cian{
+    background-color:  #00FFAA; 
+}
+
+tbody.color>tr>td#celeste{
+    background-color: #11cccc;
+    width: 50%;
+}
+
+tbody.color>tr>td#verdeo{
+    background-color: #22aa22;
+    width: 50%;
+}
+
+tbody.color>tr>td#mostaza{
+    background-color: #aabb00;
+}
+
+tbody.color>tr>td#purple{
+    background-color: #bb00bb;
+    width: 50%;
+}
