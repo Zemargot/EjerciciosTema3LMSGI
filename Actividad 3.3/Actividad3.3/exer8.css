@@ -1,0 +1,20 @@
+table, tr, td{
+    border-width: 3px;
+    border: solid;
+    border-collapse: collapse;
+}
+*{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+td.hora{
+    background-color: green;
+}
+
+td.recreo{
+    background-color: yellow;
+    font-weight: bold;
+}
