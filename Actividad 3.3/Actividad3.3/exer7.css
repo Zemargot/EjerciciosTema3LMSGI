@@ -1,0 +1,57 @@
+table, tr, td{
+    border-width: 1px ;
+    border: solid;
+    border-collapse: collapse;
+}
+
+table{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: larger;
+    text-align: center;
+}
+
+table>caption{
+
+    color: blue;
+    font-size: larger;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+td.rojo{
+    border-color: black;
+    background-color: red;
+    color: white;
+}
+
+td#fila, td.cuatro, td.ocho, td.diezseis,
+td.treinta, td.ochenta{
+    text-align: center;
+    font-size: large;
+    background-color: grey;
+}
+
+tr>td#pad{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: yellow;
+}
+
+td#rs{
+    background-color: darkcyan;
+}
+
+h1>abbr{
+    background-color: rgb(64, 194, 64);
+}
