@@ -1,0 +1,10 @@
+#uno #dos{
+    background-color: blue;
+    width: 300px;
+    
+}
+
+#dos {
+    position: relative;
+    top: -125px;
+}

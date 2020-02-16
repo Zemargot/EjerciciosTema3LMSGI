@@ -1,0 +1,11 @@
+#uno {
+    position: fixed;
+    right: 45px;
+    background-color: blue;
+}
+
+#dos{
+    position: fixed;
+    bottom: 90px;
+    background-color: blueviolet;
+}
